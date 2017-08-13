@@ -5,7 +5,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "victim" do |victim|
     victim.vm.box = "centos/7"
-    victim.vm.network "private_network", ip: "172.0.0.1"
+    #TODO why 172.0.0.1 doesn't work ?!
+    victim.vm.network "private_network", ip: "172.0.0.10"
     # uncomment the line bellow during development and comment copying victim-server folder
     #Also, it requires vb-guest additions plugin
     #config.vm.synced_folder "victim-server/", "/victim-server"
