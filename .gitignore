@@ -1,2 +1,5 @@
 .vagrant
 .idea
+.iml
+victim-server/target
+nohup

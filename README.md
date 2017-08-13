@@ -12,7 +12,8 @@ The project emulates in VMs':
 ### Prerequiites
 
 * VirtualBox 5.1.22
-* Vagrant 1.9.7
+* Vagrant 1.9.7 with installed 
+* vagrant-vbguest plugin (optionally)
 * Python 2.7
 
 ### How to run
