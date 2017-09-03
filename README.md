@@ -9,7 +9,7 @@ The project emulates in VMs':
 *  1 user
 *  1 attack coordinator
 
-### Prerequiites
+### Prerequisites
 
 * VirtualBox 5.1.22
 * Vagrant 1.9.7 with installed 
